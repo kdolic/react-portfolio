@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import Image from './../images/netflix.PNG'
 
@@ -40,8 +41,8 @@ export default function Projects() {
             <h1>Amazon Clone</h1>
             <h2>Description</h2>
             <p>Languages Used</p>
-            <a href="#" class="button">Demo</a>
-            <a href="#" class="button">Code</a>
+            <a href="" class="button">Demo</a>
+            <a href="" class="button">Code</a>
           </div>
           <div class="project-img">
             <img src="./images/code2.jpg" alt="img"></img>
@@ -52,8 +53,8 @@ export default function Projects() {
             <h1>NBA Player Pick'Em App</h1>
             <h2>Description</h2>
             <p>Languages Used</p>
-            <a href="#" class="button">Demo</a>
-            <a href="#" class="button">Code</a>
+            <a href="" class="button">Demo</a>
+            <a href="" class="button">Code</a>
           </div>
           <div class="project-img">
             <img src="./images/code2.jpg" alt="img"></img>
