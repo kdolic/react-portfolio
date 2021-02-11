@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./img/favicon.PNG"> 
+    <!-- <link rel="icon" type="image/png" href="../src/images/favicon.PNG">  -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -30,6 +30,14 @@
     </title>
   </head>
   <body>
+
+    <form name='contact' netlify netlify-honeypot='bot-field' hidden>
+      <input name='fullName' type='text' />
+      <input name='email' type='text' />
+      <input name='subject' type='text' />
+      <textarea name='message' type='text' />
+    </form>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

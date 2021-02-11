@@ -6,34 +6,15 @@ export default function Contact() {
   <section id="contact">
     <div className="contact container">
       <div><h1 className="section-title">Contact <span>Me</span></h1></div>
-      <div className='message'>
+      <div className='message_form'>
         <h2>Leave a Message:</h2>
-        <form>
-          <input
-          name='fullName'
-          type='text'
-          placeholder='Your Name :'
-        
-          />
-           <input
-          name='email'
-          type='text'
-          placeholder='Email :'
-        
-          />
-           <input
-          name='subject'
-          type='text'
-          placeholder='Subject :'
-        
-          />
-           <input
-          name='message'
-          type='text'
-          placeholder='Your Message :'
-        
-          />
-          <button>Send Message</button>
+        <form name='contact' action='/contact' method='post'>
+          <input type='hidden' name='form-name' value='contact' />
+          <input name='fullName' type='text' placeholder='Your Name :' />
+          <input name='email' type='email' placeholder='Email :' />
+          <input name='subject' type='text' placeholder='Subject :' />
+          <textarea name='message' type='text' placeholder='Your Message :' col='30' rows='10' />
+          <button type='submit'>Send Message</button>
         </form>
       </div>
       <div className='contact_info'>
