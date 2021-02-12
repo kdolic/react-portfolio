@@ -72,7 +72,7 @@ const ProjectsWrapper = styled.div`
 }
 
 #projects .project-info .button {
-  width: 50%;
+  width: 60%;
   text-align: center;
   font-size: 1.3rem;
   padding: 2% 5%;
@@ -150,7 +150,7 @@ const ProjectsWrapper = styled.div`
   }
 
   #projects .project-info .button {
-    width: 50%;
+    width: 100%;
     font-size: 1.8rem;
     padding: 1% 8%;
     border-radius: 10px;
@@ -192,8 +192,8 @@ export default function Projects() {
                     <h1>LinkedIn Clone</h1>
                     <p>A LinkedIn clone that allows user to register/login </p>
                     <h4>JavaScript/JSX | React | Redux | CSS | Material-UI | Firebase (Authorization & Deployment)</h4>
-                    <a href="https://linkedin-clone-ad6ac.web.app/" target="_blank" class="button">Demo</a>
-                    <a href="https://github.com/kdolic/linkedin-clone" target="_blank" class="button">Code</a>
+                    <a href="https://linkedin-clone-ad6ac.web.app/" target="_blank" rel="noreferrer" class="button">Demo</a>
+                    <a href="https://github.com/kdolic/linkedin-clone" target="_blank" rel="noreferrer" class="button">Code</a>
                   </div>
                   <div class="project-img">
                     <img src={linkedin} alt="img"></img>
@@ -205,8 +205,8 @@ export default function Projects() {
                     <p>A Netflix clone built using React, Firebase. It fetches the data from TMDB (The Movie Database) API. It also displays the movie trailers which is fetched from YouTube.
                     </p>
                     <h4>React</h4>
-                    <a href="https://netflix-clone-c7ddd.web.app/" target="_blank" class="button">Demo</a>
-                    <a href="https://github.com/kdolic/netflix-clone" target="_blank" class="button">Code</a>
+                    <a href="https://netflix-clone-c7ddd.web.app/" target="_blank" rel="noreferrer" class="button">Demo</a>
+                    <a href="https://github.com/kdolic/netflix-clone" target="_blank" rel="noreferrer" class="button">Code</a>
                   </div>
                   <div class="project-img">
                     <img src={netflix} alt="img"></img>

@@ -146,7 +146,7 @@ const ContactWrapper = styled.div`
   color: white;
 }
 
-.contact_info{
+.contact_info {
   display: flex;
   flex-direction: column;
 }
@@ -164,21 +164,21 @@ const ContactWrapper = styled.div`
     margin-top: 10px;
     margin-left: 15px;
     display: flex;
-    align-items: center;
+    align-items: baseline;
   }
 
   .mail {
     margin-top: 10px;
     margin-left: 15px;
     display: flex;
-    flex-direction: column;
+    align-items: baseline;
   }
 
   .location {
     margin-top: 10px;
     margin-left: 15px;
     display: flex;
-    flex-direction: column;
+    align-items: baseline;
   }
 
   .contact_info p {
@@ -201,11 +201,11 @@ export default function Contact() {
               <div className='message'>
                 <div className='formStyle'>
                 <h2>Leave a Message:</h2>
-                <form className='formStyle' name='contact' method='post'>
+                <form className='formStyle' name='contact' action='/contact' method='POST' data-netlify='true'>
                   <input type='hidden' name='form-name' value='contact' />
-                  <input required name='fullName' type='text' placeholder='Your Name :' />
-                  <input required name='email' type='email' placeholder='Email :' />
-                  <input required name='subject' type='text' placeholder='Subject :' />
+                  <input required id='fullName' name='fullName' type='text' placeholder='Your Name :' />
+                  <input required id='email' name='email' type='email' placeholder='Email :' />
+                  <input required id='subject' name='subject' type='text' placeholder='Subject :' />
                   <textarea name='message' type='text' placeholder='Your Message :' col='100' rows='8'></textarea>
                   <button type='submit'>Send Message</button>
                 </form>

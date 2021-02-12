@@ -141,7 +141,7 @@ export default function About() {
       <div class="col-right">
         <h1 class="section-title">About <span>me</span></h1>
         <h2>Full-Stack Developer</h2>
-        <p>My name is Kenan. Currently a full-stack web development student at <span>Lambda School</span>. I enjoy creating user-friendly interfaces and web applications. I am constantly exprimenting with new technologies and always striving to improve as a developer and designer. When I'm not coding, I enjoy working out, hiking, gaming, and spending time with family or friends.</p>
+        <p>My name is Kenan. Currently a full-stack web development student at <span>Lambda School</span>. I enjoy creating user-friendly interfaces and web applications. I am constantly experimenting with new technologies and always striving to improve as a developer and designer. When I'm not coding, I enjoy working out, hiking, gaming, and spending time with family or friends.</p>
         <a href={resume} download class="button">Download Resume</a>
       </div>
     </div>
