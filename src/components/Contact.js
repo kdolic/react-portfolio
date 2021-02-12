@@ -201,8 +201,11 @@ export default function Contact() {
               <div className='message'>
                 <div className='formStyle'>
                 <h2>Leave a Message:</h2>
-                <form className='formStyle' name='contact' action='/contact' method='POST' data-netlify='true'>
+                <form className='formStyle' name='contact' action='/contact' method='POST' data-netlify='true' data-netlify-honeypot='bot-field'>
                   <input type='hidden' name='form-name' value='contact' />
+                  <div hidden>
+                    <input name="bot-field"/>
+                  </div>
                   <input required id='fullName' name='fullName' type='text' placeholder='Your Name :' />
                   <input required id='email' name='email' type='email' placeholder='Email :' />
                   <input required id='subject' name='subject' type='text' placeholder='Subject :' />
