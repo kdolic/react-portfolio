@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import KDLogo from '../portfolio_ideas/KDLogo.png';
 import KDLogo2 from '../portfolio_ideas/KDLogo2.png';
 
 
