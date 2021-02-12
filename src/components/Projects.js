@@ -169,6 +169,7 @@ const ProjectsWrapper = styled.div`
     padding-top: 6%;
     padding-bottom: 4%;
   }
+  
   #projects .project-item {
     height: 380px;
   }

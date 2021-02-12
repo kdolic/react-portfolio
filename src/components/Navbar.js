@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import kd3 from '../portfolio_ideas/kd3.png';
+import KDLogo from '../portfolio_ideas/KDLogo.png';
+import KDLogo2 from '../portfolio_ideas/KDLogo2.png';
+
 
 const NavbarWrapper = styled.div`
 
@@ -212,7 +214,7 @@ export default function Navbar({ toggle }) {
           <div class="nav-bar" >
             <div class="logo">
               {/* <a href="#home"><h1>K  <span>/</span> D</h1></a> */}
-            <img className='#home' src={kd3} alt="logo"/>
+            <img className='#home' src={KDLogo2} alt="logo"/>
             </div>
             <div class="nav-list" >
               <div class="hamburger" onClick={toggle}><div class="bar" ></div></div>
