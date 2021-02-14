@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components'
 import resume from './../images/KDResume2021.pdf'
 
 const About = () => {
