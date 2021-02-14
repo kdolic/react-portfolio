@@ -121,7 +121,7 @@ const HomeWrapper = styled.div `
 
 `
 
-export default function Header() {
+const Home = () => {
     return (
       //<!-- Home Section  -->
       <HomeWrapper>
@@ -148,3 +148,5 @@ export default function Header() {
      // <!-- End of Home Section  -->
     )
 }
+
+export default Home

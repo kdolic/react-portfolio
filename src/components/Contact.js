@@ -189,7 +189,7 @@ const ContactWrapper = styled.div`
 }
 `
 
-export default function Contact() {
+const Contact = () => {
     return (
         // <!-- Contact Section -->
         <ContactWrapper>
@@ -239,3 +239,5 @@ export default function Contact() {
 //   <!-- End of Contact Section -->
     )
 }
+
+export default Contact

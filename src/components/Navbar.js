@@ -204,7 +204,7 @@ const NavbarWrapper = styled.div`
 }
 `
 
-export default function Navbar({ toggle }) {
+const Navbar = ({ toggle }) => {
     return (
      // <!-- Header Navbar Section-->
      <NavbarWrapper>
@@ -231,3 +231,5 @@ export default function Navbar({ toggle }) {
      // <!-- End of Header Navbar Section -->
     )
 }
+
+export default Navbar

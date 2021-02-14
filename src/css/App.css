@@ -82,6 +82,25 @@ p {
   color: crimson;
 }
 
+.about-img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  border: 10px solid white;
+}
+
+.about-img::after {
+  content: "";
+  position: absolute;
+  left: -33px;
+  top: 19px;
+  height: 98%;
+  width: 98%;
+  border: 3px solid crimson;
+  border-radius: 15px;
+  z-index: -1;
+}
+
 /* Keyframes */
 @keyframes text_reveal {
   100% {
@@ -113,6 +132,11 @@ p {
 
   .logo h1 {
     font-size: 4rem;
+  }
+
+  #about .col-left .about-img::after {
+    left: -45px;
+    top: 19px;
   }
 }
 /* End Media Query For Tablet */

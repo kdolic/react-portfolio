@@ -178,7 +178,7 @@ const ProjectsWrapper = styled.div`
 
 `
 
-export default function Projects() {
+const Projects = () => {
     return (
         // <!-- Projects Section -->
         <ProjectsWrapper>
@@ -243,3 +243,5 @@ export default function Projects() {
         </ProjectsWrapper>
     )
 }
+
+export default Projects

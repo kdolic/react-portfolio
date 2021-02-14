@@ -1,151 +1,25 @@
 import React from 'react'
 import styled from 'styled-components'
-import resume from './../images/KenanDolicOnePage.pdf'
+import resume from './../images/KDResume2021.pdf'
 
-const AboutWrapper = styled.div `
-
-/* About Section */
-#about .about {
-  flex-direction: column-reverse;
-  text-align: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 15% 12%;
-}
-
-#about .col-left {
-  width: 250px;
-  height: 360px;
-}
-
-#about .col-right {
-  width: 100%;
-}
-
-#about .col-right h2 {
-  font-size: 2rem;
-  font-weight: 500;
-  letter-spacing: 0.2rem;
-  margin-bottom: 5%;
-}
-
-#about .col-right p {
-  margin-bottom: 5%;
-  font-size: 1.2rem;
-}
-
-#about .col-right .button {
-  color: black;
-  margin-bottom: 7%;
-  padding: 2% 5%;
-  font-size: 1.3rem;
-}
-
-#about .col-right .button:hover {
-  color: white;
-}
-
-#about .col-left .about-img {
-  height: 100%;
-  width: 100%;
-  position: relative;
-  border: 10px solid white;
-}
-
-#about .col-left .about-img::after {
-  content: "";
-  position: absolute;
-  left: -33px;
-  top: 19px;
-  height: 98%;
-  width: 98%;
-  border: 3px solid crimson;
-  border-radius: 5px;
-  z-index: -1;
-}
-
-#about .col-left .about-img img {
-  border-radius: 10px;
-}
-
-/* End of About Section */
-
-// TABLET
-@media only screen and (min-width: 768px) {
-   /* About Section */
-   #about .about {
-    flex-direction: row;
-    padding: 1% 12%;
-  }
-
-  #about .col-left {
-    width: 85%;
-    height: 100%;
-    padding-left: 6%;
-  }
-
-  #about .col-right {
-    text-align: center;
-    padding: 3%;
-  }
-
-  #about .col-right p {
-  font-size: 1.4rem;
-}
-
-  #about .col-right .button {
-    padding: 2% 5%;
-    font-size: 1.8rem;
-  }
-
-  #about .col-left .about-img::after {
-    left: -45px;
-    top: 19px;
-  }
-  /* End of About Section */
-}
-
-// DESKTOP
-@media only screen and (min-width: 1200px) {
-    /* About Section */
-    #about .about {
-    padding: 1% 10%;
-  }
-
-  #about .col-right p {
-  font-size: 1.5rem;
-}
-
-#about .col-right span {
-  color: crimson;
-}
-
-  #about .col-right .button {
-    font-size: 2rem;
-  }
-  /* End of About Section */
-}
-`
-
-export default function About() {
+const About = () => {
     return (
-// <!-- About Section -->
-<AboutWrapper>
-  <section id="about">
-    <div class="about container">
-      <div class="col-left">
-        <div class="about-img">
-          <img src="https://i.ibb.co/L62btyj/Professional-Photo-1.jpg" alt="img"></img>
+      <section id="about" className='flex justify-center'>
+      <div class="flex-col-reverse text-center max-w-7xl my-auto min-h-screen flex items-center justify-center md:flex-row md:py-2 md:px-4 ">
+        <div className='w-2/4 md:w-4/5 md:h-full md:pl-32 xl:px-4'>
+          <div class="about-img mt-10">
+            <img className='rounded-3xl flex justify-center' src="https://i.ibb.co/L62btyj/Professional-Photo-1.jpg" alt="img"></img>
+          </div>
+        </div>
+        <div className='w-full px-16 text-center md:text-center md:p-28'>
+          <h1 class="section-title">About <span>me</span></h1>
+          <h2 className='text-3xl font-medium tracking-widest mb-10'>Full-Stack Developer</h2>
+          <p className='text-center text-xl tracking-wider mb-20 md:text-2xl'>My name is Kenan. Currently a full-stack web development student at <span className='text-red-700 font-medium'>Lambda School</span>. I enjoy creating user-friendly interfaces and web applications. I am constantly experimenting with new technologies and always striving to improve as a developer and designer. When I'm not coding, I enjoy working out, hiking, gaming, and spending time with family or friends.</p>
+          <a href={resume} download className='bg-white border-2 border-red-700 rounded-xl text-xl uppercase tracking-wider text-black hover:bg-red-700 hover:text-white transition ease-in p-3 md:text-3xl md:py-3 md:px-8'>Download Resume</a>
         </div>
       </div>
-      <div class="col-right">
-        <h1 class="section-title">About <span>me</span></h1>
-        <h2>Full-Stack Developer</h2>
-        <p>My name is Kenan. Currently a full-stack web development student at <span>Lambda School</span>. I enjoy creating user-friendly interfaces and web applications. I am constantly experimenting with new technologies and always striving to improve as a developer and designer. When I'm not coding, I enjoy working out, hiking, gaming, and spending time with family or friends.</p>
-        <a href={resume} download class="button">Download Resume</a>
-      </div>
-    </div>
-  </section>
-</AboutWrapper>
+      </section>
     );
 }
+
+export default About

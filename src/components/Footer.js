@@ -10,7 +10,7 @@ const Footer = () => {
           <div class="logo flex justify-center">
             <img className='w-20 mb-6 md:w-24' src={KDLogo2} alt="logo"/>
           </div>
-          <h2 className='text-white text-center text-2xl font-medium tracking-wider m-2 md:text-3xl xl:text-4xl'>Connect With Me</h2>
+          <h2 className='text-white text-center text-2xl font-medium tracking-widest m-2 md:text-3xl'>Connect With Me</h2>
           <div className="flex justify-center mb-3">
             <div className="m-2">
               <a href="https://www.linkedin.com/in/kenan-dolic/" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/windows/48/000000/linkedin.png" alt='linkedin'/></a>
