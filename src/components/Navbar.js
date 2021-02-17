@@ -179,7 +179,7 @@ const NavbarWrapper = styled.div`
 }
 
 // DESKTOP
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   /* Header Navbar Section */
   #header .hamburger {
     display: none;
