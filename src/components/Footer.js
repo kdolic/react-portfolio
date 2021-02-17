@@ -1,5 +1,5 @@
 import React from 'react'
-import KDLogo2 from '../portfolio_ideas/KDLogo2.png';
+import KDLogo2 from '../images/KDLogo2.png';
 
 
 const Footer = () => {

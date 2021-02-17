@@ -19,13 +19,13 @@ const Contact = () => {
               <input name="bot-field"/>
             </div>
             <div className="flex flex-col p-2 lg:flex-row lg:space-x-4">
-              <input className='mb-2 p-2 border border-black placeholder-gray-700 rounded-lg md:p-3 md:text-lg lg:w-full' required id='fullName' name='fullName' type='text' placeholder='Your Name :' />
-              <input className='mb-2 4 p-2 border border-black placeholder-gray-700 rounded-lg md:p-3 md:text-lg lg:w-full' required id='email' name='email' type='email' placeholder='Email :' />
+              <input className='mb-2 p-2 border border-black placeholder-gray-700 rounded-md md:p-3 md:text-lg lg:w-full' required id='fullName' name='fullName' type='text' placeholder='Your Name :' />
+              <input className='mb-2 4 p-2 border border-black placeholder-gray-700 rounded-md md:p-3 md:text-lg lg:w-full' required id='email' name='email' type='email' placeholder='Email :' />
             </div>
             <div className="flex flex-col p-2">
-              <input className='mb-4 p-2 border border-black placeholder-gray-700 rounded-lg md:p-3 md:text-lg' required id='subject' name='subject' type='text' placeholder='Subject :' />
-              <textarea className='mb-6 p-2 border border-black placeholder-gray-700 rounded-lg md:p-3 md:text-lg' name='message' type='text' placeholder='Your Message :' col='100' rows='6'></textarea>
-              <button className="text-center w-2/5 border-2 border-red-700 rounded-xl text-xl uppercase tracking-wider text-black hover:bg-red-700 hover:text-white transition ease-in p-3 md:text-2xl md:py-3 md:px-6" type='submit'>Send Message</button>
+              <input className='mb-4 p-2 border border-black placeholder-gray-700 rounded-md md:p-3 md:text-lg' required id='subject' name='subject' type='text' placeholder='Subject :' />
+              <textarea className='mb-6 p-2 border border-black placeholder-gray-700 rounded-md md:p-3 md:text-lg' name='message' type='text' placeholder='Your Message :' col='100' rows='6'></textarea>
+              <button className="text-center w-1/3 sm:w-2/6 border-2 border-red-700 rounded-lg text-lg uppercase tracking-wider text-black hover:bg-red-700 hover:text-white transition ease-in p-3 md:text-xl md:py-3 md:px-6" type='submit'>Send Message</button>
             </div>
           </form>
           </div>
