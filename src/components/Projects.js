@@ -14,18 +14,15 @@ const ProjectsWrapper = styled.div`
   margin: 0 auto;
   padding-top: 5%;
 }
-
 #projects .projects-header h1 {
   margin-bottom: 5%;
 }
-
 #projects .all-projects {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-
 #projects .project-item {
   display: flex;
   align-items: center;
@@ -36,7 +33,6 @@ const ProjectsWrapper = styled.div`
   overflow: hidden;
   border-radius: 2.5%;
 }
-
 #projects .project-info {
   padding: 10%;
   flex-basis: 50%;
@@ -49,28 +45,23 @@ const ProjectsWrapper = styled.div`
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
   color: white;
 }
-
 #projects .project-info h1 {
   font-size: 3rem;
   font-weight: 500;
 }
-
 #projects .project-info h2 {
   font-size: 1.5rem;
   font-weight: 500;
   margin-top: 10px;
 }
-
 #projects .project-info p {
   font-size: 1.6rem;
   color: white;
 }
-
 #projects .project-info a {
   font-size: 1.5rem;
   padding: 3%;
 }
-
 #projects .project-info .button {
   width: 60%;
   text-align: center;
@@ -78,14 +69,12 @@ const ProjectsWrapper = styled.div`
   padding: 2% 5%;
   border-radius: 10px;
 }
-
 #projects .project-img {
   flex-basis: 50%;
   height: 300px;
   overflow: hidden;
   position: relative;
 }
-
 #projects .project-img:after {
   content: "";
   position: absolute;
@@ -96,19 +85,15 @@ const ProjectsWrapper = styled.div`
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
   opacity: 0.3;
 }
-
 #projects .project-img img {
   object-fit: cover;
   transition: 0.3s ease transform;
 }
-
 #projects .project-item:hover .project-img img {
   transform: scale(1.1);
   opacity: 0.9;
 }
-
 /* End of Projects section */
-
 // TABLET
 @media only screen and (min-width: 768px) {
   /* Projects Section */
@@ -116,7 +101,6 @@ const ProjectsWrapper = styled.div`
     padding-top: 8%;
     padding-bottom: 8%;
   }
-
   #projects .project-item {
     flex-direction: row;
   }
@@ -135,33 +119,27 @@ const ProjectsWrapper = styled.div`
   #projects .all-projects .project-img {
     height: 100%;
   }
-
   #projects .project-info h1 {
     font-size: 4rem;
   }
-
   #projects .project-info h2 {
     font-size: 2rem;
     margin-top: 20px;
   }
-
   #projects .project-info p {
     font-size: 1.5rem;
   }
-
   #projects .project-info .button {
     width: 100%;
     font-size: 1.8rem;
     padding: 1% 8%;
     border-radius: 10px;
   }
-
   #projects .project-img {
     height: 350px;
   }
   /* End of Projects section */
 }
-
 // DESKTOP
 @media only screen and (min-width: 1200px) {
    /* Projects Section */
@@ -175,7 +153,6 @@ const ProjectsWrapper = styled.div`
   }
   /* End of Projects section */
 }
-
 `
 
 const Projects = () => {
@@ -185,7 +162,7 @@ const Projects = () => {
           <section id="projects">
             <div class="projects container">
               <div class="projects-header">
-                <h1 class="section-title">My <span>Projects</span></h1>
+                <h1 class="section-title md:text-7xl xl:text-9xl">My <span>Projects</span></h1>
               </div>
               <div class="all-projects">
                 <div class="project-item">
