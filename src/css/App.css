@@ -50,7 +50,7 @@ p {
 }
 
 .section-title span {
-  color: crimson;
+  color: rgba(185, 28, 28, 1);
 }
 
 .button {
@@ -96,7 +96,7 @@ p {
   background-size: cover;
   background-position: top center;
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 
 #home::after {

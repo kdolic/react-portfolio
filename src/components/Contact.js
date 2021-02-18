@@ -25,7 +25,7 @@ const Contact = () => {
             <div className="flex flex-col p-2">
               <input className='mb-4 p-2 border border-black placeholder-gray-700 rounded-md md:p-3 md:text-lg' required id='subject' name='subject' type='text' placeholder='Subject :' />
               <textarea className='mb-6 p-2 border border-black placeholder-gray-700 rounded-md md:p-3 md:text-lg' name='message' type='text' placeholder='Your Message :' col='100' rows='6'></textarea>
-              <button className="text-center w-1/3 sm:w-2/6 border-2 border-red-700 rounded-lg text-lg uppercase tracking-wider text-black hover:bg-red-700 hover:text-white transition ease-in p-3 md:text-xl md:py-3 md:px-6" type='submit'>Send Message</button>
+              <button className="text-center w-1/2 sm:w-1/3 border-2 border-red-700 rounded-lg text-lg uppercase tracking-wider text-black hover:bg-red-700 hover:text-white transition ease-in p-3 md:text-xl md:py-3 md:px-6" type='submit'>Send Message</button>
             </div>
           </form>
           </div>

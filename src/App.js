@@ -1,5 +1,5 @@
-import React, {useState} from 'react'
-import Navbar from './components/Navbar'
+import React from 'react'
+import Navbar from './components/Nav/Navbar'
 import Home from './components/Home'
 import About from './components/About'
 import Projects from './components/Projects'
@@ -8,16 +8,11 @@ import Footer from './components/Footer'
 
 import './css/App.css'
 
-function App() {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => {
-    setIsOpen(!isOpen);
-  }
+const App = () => {
 
   return (
    <div>
-     <Navbar isOpen={isOpen} toggle={toggle} />
+     <Navbar/>
      <Home/>
      <About/>
      <Projects/>

@@ -1,9 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-import KDLogo2 from '../images/KDLogo2.png';
+import Burger from './Burger'
+import KDLogo2 from '../../images/KDLogo2.png';
 
 
-const NavbarWrapper = styled.div`
+const Nav = styled.nav`
 
 // MOBILE
 /* Header Navbar Section */
@@ -201,34 +202,72 @@ const NavbarWrapper = styled.div`
     display: none;
   }
   /* End of Header Navbar Section */
+  
 }
 `
 
-const Navbar = ({ toggle }) => {
+const Navbar = () => {
     return (
      // <!-- Header Navbar Section-->
-     <NavbarWrapper>
-      <section id="header">
-        <div class="header container">
-          <div class="nav-bar" >
-            <div class="logo">
-              {/* <a href="#home"><h1>K  <span>/</span> D</h1></a> */}
-            <img className='#home' src={KDLogo2} alt="logo"/>
-            </div>
-            <div class="nav-list" >
-              <div class="hamburger" onClick={toggle}><div class="bar" ></div></div>
-              <ul>
-                <li><a href="#home" data-after="Home">Home</a></li>
-                <li><a href="#about" data-after="About">About</a></li>
-                <li><a href="#projects" data-after="Projects">Projects</a></li>
-                <li><a href="#contact" data-after="Contact">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-     </NavbarWrapper>
+    //  <NavbarWrapper>
+    //   <section id="header">
+    //     <div class="header container">
+    //       <div class="nav-bar" >
+    //         <div class="logo">
+    //           {/* <a href="#home"><h1>K  <span>/</span> D</h1></a> */}
+    //         <img className='#home' src={KDLogo2} alt="logo"/>
+    //         </div>
+    //         <div class="nav-list" >
+    //           <div class="hamburger" onClick={toggle}><div class="bar" ></div></div>
+    //           <ul>
+    //             <li><a href="#home" data-after="Home">Home</a></li>
+    //             <li><a href="#about" data-after="About">About</a></li>
+    //             <li><a href="#projects" data-after="Projects">Projects</a></li>
+    //             <li><a href="#contact" data-after="Contact">Contact</a></li>
+    //           </ul>
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </section>
+    //  </NavbarWrapper>
      // <!-- End of Header Navbar Section -->
+
+
+
+
+
+
+
+         // <!-- Header Navbar Section-->
+        //  <NavbarWrapper>
+        //  <section id="header">
+        //    <div class="header container">
+        //      <div class="nav-bar" >
+        //        <div class="logo">
+        //          {/* <a href="#home"><h1>K  <span>/</span> D</h1></a> */}
+        //        <img className='#home' src={KDLogo2} alt="logo"/>
+        //        </div>
+        //        <div class="nav-list" >
+        //          <div class="hamburger"><div class="bar" ></div></div>
+        //          <ul>
+        //            <li><a href="#home" data-after="Home">Home</a></li>
+        //            <li><a href="#about" data-after="About">About</a></li>
+        //            <li><a href="#projects" data-after="Projects">Projects</a></li>
+        //            <li><a href="#contact" data-after="Contact">Contact</a></li>
+        //          </ul>
+        //        </div>
+        //      </div>
+        //    </div>
+        //  </section>
+        // </NavbarWrapper>
+        // <!-- End of Header Navbar Section -->
+
+    <Nav>
+      <div className="logo">
+        <img className='#home' src={KDLogo2} alt="logo"/>
+      </div>
+      <Burger />
+    </Nav>
     )
 }
 
