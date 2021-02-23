@@ -10,7 +10,7 @@ const Nav = styled.nav`
 /* Header Navbar Section */
 #header {
   position: fixed;
-  z-index: 1000;
+  z-index: 1;
   left: 0;
   top: 0;
   width: 100vw;
@@ -18,7 +18,7 @@ const Nav = styled.nav`
 }
 
 #header .header {
-  min-height: 8vh;
+  min-height: 9vh;
   background-color: rgba(31, 30, 30, 0.24);
   transition: 0.3s ease background-color;
 }
@@ -263,9 +263,15 @@ const Navbar = () => {
         // <!-- End of Header Navbar Section -->
 
     <Nav>
-      <div className="logo">
-        <img className='#home' src={KDLogo2} alt="logo"/>
-      </div>
+      <section id="header">
+         <div class="header container">
+           <div class="nav-bar" >
+            <div className="logo">
+              <img className='#home' src={KDLogo2} alt="logo"/>
+            </div>
+           </div>
+          </div>
+      </section>
       <Burger />
     </Nav>
     )

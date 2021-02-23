@@ -12,10 +12,6 @@ html {
   scroll-behavior: smooth;
 }
 
-a {
-  text-decoration: none;
-}
-
 .container {
   min-height: 100vh;
   width: 100%;
@@ -30,15 +26,6 @@ img {
   object-fit: cover;
 }
 
-p {
-  color: black;
-  font-size: 1.2rem;
-  margin-top: 1%;
-  line-height: 2.4rem;
-  font-weight: 400;
-  letter-spacing: 0.05rem;
-}
-
 .section-title {
   font-size: 3.5rem;
   font-weight: 300;
@@ -51,26 +38,6 @@ p {
 
 .section-title span {
   color: rgba(185, 28, 28, 1);
-}
-
-.button {
-  display: inline-block;
-  padding: 2% 5%;
-  color: white;
-  background-color: transparent;
-  border: 2px solid crimson;
-  border-radius: 15px;
-  font-size: 2rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  margin-top: 5%;
-  transition: 0.2s ease;
-  transition-property: background-color, color;
-}
-
-.button:hover {
-  color: white;
-  background-color: crimson;
 }
 
 .about-img {
@@ -157,7 +124,7 @@ p {
 
 @keyframes text_reveal_name {
   100% {
-    color: crimson;
+    color: rgba(185, 28, 28, 1);
     font-weight: 500;
   }
 }
@@ -171,12 +138,6 @@ p {
     font-size: 5rem;
   }
 
-  .button {
-    padding: 2% 8%;
-    font-size: 4rem;
-    letter-spacing: 0.2rem;
-  }
-
   #about .col-left .about-img::after {
     left: -45px;
     top: 19px;
@@ -188,8 +149,5 @@ p {
 
 /* MEDIA QUERY */
 @media only screen and (min-width: 1200px) {
-  .button {
-    font-size: 5rem;
-  }
 }
 /* End  Media Query For Desktop */

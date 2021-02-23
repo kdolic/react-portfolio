@@ -20,7 +20,7 @@ const Home = () => {
                 }}
               />
             </h2>
-            <a href="#projects" type="button" className="border-2 border-red-700 rounded-xl text-2xl uppercase tracking-wider text-white hover:bg-red-700 hover:text-white transition ease-in p-3 md:text-3xl md:py-3 md:px-6 xl:text-4xl">My Projects</a>
+            <a href="#projects" type="button" className="border-2 border-red-700 rounded-xl text-2xl uppercase tracking-wider text-white hover:bg-red-700 hover:text-white transition ease-in p-3 ml-6 md:text-3xl md:py-3 md:px-6 xl:text-4xl">My Projects</a>
           </div>
         </div>
       </section>

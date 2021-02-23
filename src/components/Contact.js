@@ -8,7 +8,7 @@ const Contact = () => {
       <section id="contact">
       <div className="max-w-7xl my-0 mx-auto min-h-screen w-full flex flex-col items-center justify-center">
         <div>
-          <h1 className="section-title md:text-7xl xl:text-8xl">Contact <span>Me</span></h1>
+          <h1 className="section-title mt-20 md:text-7xl xl:text-8xl">Contact <span>Me</span></h1>
         </div>
         <div className='w-4/5 lg:w-11/12 lg:flex lg:flex-row'>
           <div className='lg:w-full'>
