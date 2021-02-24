@@ -8,14 +8,15 @@ const StyledBurger = styled.div`
   position: fixed;
   top: 15px;
   right: 12px;
-  z-index: 20;
+  z-index: 2;
   display: none;
   @media (max-width: 768px) {
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
   }
-  div {
+  
+   .burger {
     width: 2rem;
     height: .25rem;
     background-color: ${({ open }) => open ? '#ccc' : '#333'};
@@ -35,15 +36,17 @@ const StyledBurger = styled.div`
   }
 `;
 
+
+
 const Burger = () => {
   const [open, setOpen] = useState(false)
   
   return (
     <>
       <StyledBurger open={open} onClick={() => setOpen(!open)}>
-        <div />
-        <div />
-        <div />
+        <div className='burger' />
+        <div className='burger' />
+        <div className='burger' />
       </StyledBurger>
       <RightNav open={open} setOpen={setOpen} />
     </>
