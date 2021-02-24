@@ -8,7 +8,7 @@ const Footer = () => {
         <section className="bg-gradient-to-r from-gray-800 to-gray-700 h-80 flex justify-center">
         <div class="h-2 flex-col items-center justify-center pt-6 pb-6 ">
           <div class="logo flex justify-center">
-            <img className='w-20 mb-6 md:w-24' src={KDLogo2} alt="logo"/>
+            <img className='w-20 mb-6 md:w-28 ml-36 md:ml-40' src={KDLogo2} alt="logo"/>
           </div>
           <h2 className='text-white text-center text-2xl font-medium tracking-widest m-2 md:text-3xl'>Connect With Me</h2>
           <div className="flex justify-center mb-3">
