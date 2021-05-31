@@ -43,8 +43,8 @@ const Projects = (props) => {
                     <h1>{props.data ? props.data3.title : 'loading...'}</h1>
                     <p>{props.data ? props.data3.desc : 'loading...'}</p>
                     <h4>{props.data ? props.data3.stack : 'loading...'}</h4>
-                    <a href={props.data ? props.data3.demo : 'loading...'} target="_blank" className='border-2 border-red-700 w-3/5 rounded-xl text-xl text-center uppercase tracking-wider text-white hover:bg-red-700 hover:text-white transition ease-in p-3 mt-8 md:text-2xl md:py-2 md:px-8 md:w-full xl:text-3xl'>Demo</a>
-                    <a href={props.data ? props.data3.code : 'loading...'}  target="_blank" className='border-2 border-red-700 w-3/5 rounded-xl text-xl text-center uppercase tracking-wider text-white hover:bg-red-700 hover:text-white transition ease-in p-3 mt-8 md:text-2xl md:py-2 md:px-8 md:w-full xl:text-3xl'>Code</a>
+                    <a href={props.data ? props.data3.demo : 'loading...'} target="_blank" rel="noreferrer" className='border-2 border-red-700 w-3/5 rounded-xl text-xl text-center uppercase tracking-wider text-white hover:bg-red-700 hover:text-white transition ease-in p-3 mt-8 md:text-2xl md:py-2 md:px-8 md:w-full xl:text-3xl'>Demo</a>
+                    <a href={props.data ? props.data3.code : 'loading...'}  target="_blank" rel="noreferrer" className='border-2 border-red-700 w-3/5 rounded-xl text-xl text-center uppercase tracking-wider text-white hover:bg-red-700 hover:text-white transition ease-in p-3 mt-8 md:text-2xl md:py-2 md:px-8 md:w-full xl:text-3xl'>Code</a>
                   </div>
                   <div class="project-img">
                     <img src={code2} alt="img"></img>
@@ -55,8 +55,8 @@ const Projects = (props) => {
                     <h1>{props.data ? props.data4.title : 'loading...'}</h1>
                     <p>{props.data ? props.data4.desc : 'loading...'}</p>
                     <h4>{props.data ? props.data4.stack : 'loading...'}</h4>
-                    <a href={props.data ? props.data4.demo : 'loading...'} target="_blank" className='border-2 border-red-700 w-3/5 rounded-xl text-xl text-center uppercase tracking-wider text-white hover:bg-red-700 hover:text-white transition ease-in p-3 mt-8 md:text-2xl md:py-2 md:px-8 md:w-full xl:text-3xl'>Demo</a>
-                    <a href={props.data ? props.data4.code : 'loading...'} target="_blank" className='border-2 border-red-700 w-3/5 rounded-xl text-xl text-center uppercase tracking-wider text-white hover:bg-red-700 hover:text-white transition ease-in p-3 mt-8 md:text-2xl md:py-2 md:px-8 md:w-full xl:text-3xl'>Code</a>
+                    <a href={props.data ? props.data4.demo : 'loading...'} target="_blank" rel="noreferrer" className='border-2 border-red-700 w-3/5 rounded-xl text-xl text-center uppercase tracking-wider text-white hover:bg-red-700 hover:text-white transition ease-in p-3 mt-8 md:text-2xl md:py-2 md:px-8 md:w-full xl:text-3xl'>Demo</a>
+                    <a href={props.data ? props.data4.code : 'loading...'} target="_blank" rel="noreferrer" className='border-2 border-red-700 w-3/5 rounded-xl text-xl text-center uppercase tracking-wider text-white hover:bg-red-700 hover:text-white transition ease-in p-3 mt-8 md:text-2xl md:py-2 md:px-8 md:w-full xl:text-3xl'>Code</a>
                   </div>
                   <div class="project-img">
                     <img src={code2} alt="img"></img>
