@@ -4,7 +4,7 @@ import netflix from './../images/netflix.PNG'
 import linkedin from './../images/linkedin-clone.PNG'
 import code2 from '../images/code2.jpg'
 
-const Projects = () => {
+const Projects = (props) => {
     return (
        // <!-- Projects Section -->
           <section id="projects">
@@ -15,7 +15,7 @@ const Projects = () => {
               <div class="all-projects">
                 <div class="project-item">
                   <div class="project-info">
-                    <h1>LinkedIn Clone</h1>
+                    <h1>{props.data ? props.data.title1 : 'loading...'}</h1>
                     <p>A LinkedIn clone that allows user to register/login </p>
                     <h4>JavaScript/JSX | React | Redux | CSS | Material-UI | Firebase (Authorization & Deployment)</h4>
                     <a href="https://linkedin-clone-ad6ac.web.app/" target="_blank" rel="noreferrer" className='border-2 border-red-700 w-3/5 rounded-xl text-xl text-center uppercase tracking-wider text-white hover:bg-red-700 hover:text-white transition ease-in p-3 mt-8 md:text-2xl md:py-2 md:px-8 md:w-full xl:text-3xl'>Demo</a>

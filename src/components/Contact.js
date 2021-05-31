@@ -3,7 +3,7 @@ import LocationOnIcon from '@material-ui/icons/LocationOn';
 import PhoneIcon from '@material-ui/icons/Phone';
 import MailIcon from '@material-ui/icons/Mail';
 
-const Contact = () => {
+const Contact = (props) => {
     return (
       <section id="contact">
       <div className="max-w-7xl my-0 mx-auto min-h-screen w-full flex flex-col items-center justify-center">
@@ -31,22 +31,22 @@ const Contact = () => {
           </div>
         <div className='lg:w-3/5 lg:flex lg:flex-col lg:ml-16'>
           <h2 className='text-2xl font-medium mt-20 mb-4 text-left md:text-3xl xl:text-4xl'>Contact <span>Info</span></h2>
-          <h4 className='text-lg text-left mb-10 md:text-xl lg:mb-0'>Feel free to contact me for career prospects, business services, and any other professional inquires.</h4>
+          <h4 className='text-lg text-left mb-10 md:text-xl lg:mb-0'>{props.data ? props.data.paragraph : 'Loading..'}</h4>
           <div className='flex items-center lg:mt-8'>
             <PhoneIcon style={{fill: "crimson"}}/>
             <h3 className='text-xl ml-4 font-medium md:text-2xl'>Call</h3>
           </div>
-            <p className='pl-10 mb-6 text-lg md:text-xl'>(515) 473-5560</p>
+            <p className='pl-10 mb-6 text-lg md:text-xl'>{props.data ? props.data.phone : 'Loading..'}</p>
           <div className='flex items-center'>
             <MailIcon style={{fill: "crimson"}}/>
             <h3 className='text-xl ml-4 font-medium md:text-2xl'>Email</h3>
           </div>
-            <p className='pl-10 mb-6 text-lg md:text-xl'>kdolic@alumni.iastate.edu</p>
+            <p className='pl-10 mb-6 text-lg md:text-xl'>{props.data ? props.data.email : 'Loading..'}</p>
           <div className='flex items-center'>
             <LocationOnIcon style={{fill: "crimson"}}/>
             <h3 className='text-xl ml-4 font-medium md:text-2xl'>Location</h3>
           </div>
-            <p className='pl-10 text-lg md:text-xl'>West Des Moines, IA</p>
+            <p className='pl-10 text-lg md:text-xl'>{props.data ? props.data.location : 'Loading..'}</p>
         </div>
         </div>
       </div>
