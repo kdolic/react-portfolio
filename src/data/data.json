@@ -1,0 +1,50 @@
+{
+    "Home": {
+        "name": "Kenan Dolic"
+    },
+    "About": {
+        "title": "Full-Stack Developer",
+        "paragraph": "My name is Kenan. Currently a full-stack web development student at Lambda School. I enjoy creating user-friendly interfaces and web applications. I am constantly experimenting with new technologies and always striving to improve as a developer and designer. When I'm not coding, I enjoy working out, hiking, gaming, and spending time with family or friends."
+    },
+    "Projects": [
+        {
+            "title": "LinkedIn Clone",
+            "description": "A LinkedIn clone that allows user to register/login",
+            "stack": "JavaScript/JSX | React | Redux | CSS | Material-UI | Firebase (Authorization & Deployment)",
+            "demo": "https://linkedin-clone-ad6ac.web.app/",
+            "code": "https://github.com/kdolic/linkedin-clone"
+        },
+        {
+            "title": "Netflix Clone",
+            "description": "A Netflix clone built using React, Firebase. It fetches the data from TMDB (The Movie Database) API. It also displays the movie trailers which is fetched from YouTube.",
+            "stack": "React",
+            "demo": "https://netflix-clone-c7ddd.web.app/",
+            "code": "https://github.com/kdolic/netflix-clone"
+        },
+        {
+            "title": "Project # 3",
+            "description": "Description",
+            "stack": "Languages Used",
+            "demo": "https://linkedin-clone-ad6ac.web.app/",
+            "code": "https://github.com/kdolic/linkedin-clone"
+        },
+        {
+            "title": "Project # 4",
+            "description": "Description",
+            "stack": "Languages Used",
+            "demo": "https://linkedin-clone-ad6ac.web.app/",
+            "code": "https://github.com/kdolic/linkedin-clone"
+        }
+    ],
+    "Contact": {
+        "paragraph": "Feel free to contact me for career prospects, business services, and any other professional inquires.",
+        "location": "West Des Moines, IA",
+        "phone": "(515) 473-5560",
+        "email": "kdolic@alumni.iastate.edu"
+    },
+    "Footer": {
+        "linkedIn": "https://www.linkedin.com/in/kenan-dolic/",
+        "github": "https://github.com/kdolic",
+        "twitter": "https://twitter.com/DolicKenan"
+    }
+}
