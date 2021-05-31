@@ -6,43 +6,41 @@
         "title": "Full-Stack Developer",
         "paragraph": "My name is Kenan. Currently a full-stack web development student at Lambda School. I enjoy creating user-friendly interfaces and web applications. I am constantly experimenting with new technologies and always striving to improve as a developer and designer. When I'm not coding, I enjoy working out, hiking, gaming, and spending time with family or friends."
     },
-    "Projects": [
-        {
-            "title1": "LinkedIn Clone",
-            "description1": "A LinkedIn clone that allows user to register/login",
-            "stack1": "JavaScript/JSX | React | Redux | CSS | Material-UI | Firebase (Authorization & Deployment)",
-            "demo1": "https://linkedin-clone-ad6ac.web.app/",
-            "code1": "https://github.com/kdolic/linkedin-clone"
+    "Project1": {
+            "title": "LinkedIn Clone",
+            "desc": "A LinkedIn clone that allows user to register/login",
+            "stack": "JavaScript/JSX | React | Redux | CSS | Material-UI | Firebase (Authorization & Deployment)",
+            "demo": "https://linkedin-clone-ad6ac.web.app/",
+            "code": "https://github.com/kdolic/linkedin-clone"
         },
-        {
-            "title2": "Netflix Clone",
-            "description2": "A Netflix clone built using React, Firebase. It fetches the data from TMDB (The Movie Database) API. It also displays the movie trailers which is fetched from YouTube.",
-            "stack2": "React",
-            "demo2": "https://netflix-clone-c7ddd.web.app/",
-            "code2": "https://github.com/kdolic/netflix-clone"
+    "Project2": {
+            "title": "Netflix Clone",
+            "desc": "A Netflix clone built using React, Firebase. It fetches the data from TMDB (The Movie Database) API. It also displays the movie trailers which is fetched from YouTube.",
+            "stack": "React",
+            "demo": "https://netflix-clone-c7ddd.web.app/",
+            "code": "https://github.com/kdolic/netflix-clone"
         },
-        {
-            "title3": "Project # 3",
-            "description3": "Description",
-            "stack3": "Languages Used",
-            "demo3": "https://linkedin-clone-ad6ac.web.app/",
-            "code3": "https://github.com/kdolic/linkedin-clone"
+    "Project3": {
+            "title": "Project # 3",
+            "desc": "Description",
+            "stack": "Languages Used",
+            "demo": "https://linkedin-clone-ad6ac.web.app/",
+            "code": "https://github.com/kdolic/linkedin-clone"
         },
-        {
-            "title4": "Project # 4",
-            "description4": "Description",
-            "stack4": "Languages Used",
-            "demo4": "https://linkedin-clone-ad6ac.web.app/",
-            "code4": "https://github.com/kdolic/linkedin-clone"
-        }
-    ],
+    "Project4": {
+            "title": "Project # 4",
+            "desc": "Description",
+            "stack": "Languages Used",
+            "demo": "https://linkedin-clone-ad6ac.web.app/",
+            "code": "https://github.com/kdolic/linkedin-clone"
+        },
     "Contact": {
         "paragraph": "Feel free to contact me for career prospects, business services, and any other professional inquires.",
         "phone": "(515) 473-5560",
         "email": "kdolic@alumni.iastate.edu",
         "location": "West Des Moines, IA"
     },
-    "Footer": {
+    "Icons": {
         "linkedIn": "https://www.linkedin.com/in/kenan-dolic/",
         "github": "https://github.com/kdolic",
         "twitter": "https://twitter.com/DolicKenan"

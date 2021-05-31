@@ -58,8 +58,6 @@ const Ul = styled.ul`
   }
 `;
 
-
-
 const RightNav = ({ open, setOpen }) => {
 
     const handleMenuClick = () => {
@@ -72,7 +70,7 @@ const RightNav = ({ open, setOpen }) => {
         <li><a href="#about" data-after="About" onClick={handleMenuClick}>About</a></li>
         <li><a href="#projects" data-after="Projects" onClick={handleMenuClick}>Projects</a></li>
         <li><a href="#contact" data-after="Contact" onClick={handleMenuClick}>Contact</a></li>
-    <div open={open} className="flex justify-center">
+    {/* <div open={open} className="flex justify-center">
             <div className="m-2">
               <a href="https://www.linkedin.com/in/kenan-dolic/" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/material/48/ffffff/linkedin--v1.png" alt='linkedin' /></a>
             </div>
@@ -82,7 +80,7 @@ const RightNav = ({ open, setOpen }) => {
             <div className="m-2">
               <a href="https://twitter.com/DolicKenan" target="_blank" rel="noreferrer"><img src="https://img.icons8.com/material-rounded/48/ffffff/twitter.png" alt='twitter' /></a>
             </div>
-    </div>
+    </div> */}
     </Ul>
   )
 }

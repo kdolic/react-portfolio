@@ -19,12 +19,12 @@ const App = () => {
 
   return (
    <div>
-     <Navbar/>
+     <Navbar />
      <Home data={pageData.Home}/>
      <About data={pageData.About}/>
-     <Projects data={pageData.Projects}/>
+     <Projects data={pageData.Project1} data2={pageData.Project2} data3={pageData.Project3} data4={pageData.Project4}/>
      <Contact data={pageData.Contact}/>
-     <Footer data={pageData.Footer}/>
+     <Footer data={pageData.Icons}/>
    </div>
   );
 }
