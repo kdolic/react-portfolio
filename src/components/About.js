@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from './../images/KDResume2021.pdf'
+import resume from './../images/KDResume.pdf'
 
 const About = (props) => {
     return (

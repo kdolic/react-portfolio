@@ -1,5 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
+import devfit from '../images/devfit.png'
+import hrf from '../images/hrf.PNG'
 import netflix from './../images/netflix.PNG'
 import linkedin from './../images/linkedin-clone.PNG'
 import code2 from '../images/code2.jpg'
@@ -22,7 +24,7 @@ const Projects = (props) => {
                     <a href={props.data ? props.data.code : 'loading...'} target="_blank" rel="noreferrer" className='border-2 border-red-700 w-3/5 rounded-xl text-xl text-center uppercase tracking-wider text-white hover:bg-red-700 hover:text-white transition ease-in p-3 mt-8 md:text-2xl md:py-2 md:px-8 md:w-full xl:text-3xl'>Code</a>
                   </div>
                   <div class="project-img">
-                    <img src={linkedin} alt="img"></img>
+                    <img src={devfit} alt="img"></img>
                   </div>
                 </div>
                 <div class="project-item">
@@ -35,7 +37,7 @@ const Projects = (props) => {
                     <a href={props.data ? props.data2.code : 'loading...'} target="_blank" rel="noreferrer" className='border-2 border-red-700 w-3/5 rounded-xl text-xl text-center uppercase tracking-wider text-white hover:bg-red-700 hover:text-white transition ease-in p-3 mt-8 md:text-2xl md:py-2 md:px-8 md:w-full xl:text-3xl'>Code</a>
                   </div>
                   <div class="project-img">
-                    <img src={netflix} alt="img"></img>
+                    <img src={hrf} alt="img"></img>
                   </div>
                 </div>
                 <div class="project-item">
@@ -47,7 +49,7 @@ const Projects = (props) => {
                     <a href={props.data ? props.data3.code : 'loading...'}  target="_blank" rel="noreferrer" className='border-2 border-red-700 w-3/5 rounded-xl text-xl text-center uppercase tracking-wider text-white hover:bg-red-700 hover:text-white transition ease-in p-3 mt-8 md:text-2xl md:py-2 md:px-8 md:w-full xl:text-3xl'>Code</a>
                   </div>
                   <div class="project-img">
-                    <img src={code2} alt="img"></img>
+                    <img src={linkedin} alt="img"></img>
                   </div>
                 </div>
                 <div class="project-item">
@@ -59,7 +61,7 @@ const Projects = (props) => {
                     <a href={props.data ? props.data4.code : 'loading...'} target="_blank" rel="noreferrer" className='border-2 border-red-700 w-3/5 rounded-xl text-xl text-center uppercase tracking-wider text-white hover:bg-red-700 hover:text-white transition ease-in p-3 mt-8 md:text-2xl md:py-2 md:px-8 md:w-full xl:text-3xl'>Code</a>
                   </div>
                   <div class="project-img">
-                    <img src={code2} alt="img"></img>
+                    <img src={netflix} alt="img"></img>
                   </div>
                 </div>
               </div>

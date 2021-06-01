@@ -7,32 +7,32 @@
         "paragraph": "My name is Kenan. Currently a full-stack web development student at Lambda School. I enjoy creating user-friendly interfaces and web applications. I am constantly experimenting with new technologies and always striving to improve as a developer and designer. When I'm not coding, I enjoy working out, hiking, gaming, and spending time with family or friends."
     },
     "Project1": {
+            "title": "DEV.FIT",
+            "desc": "A React web application that allows users to register/login and keep track of their workout log, intermittent fasting, personal goals, and streaks for consistency.",
+            "stack": "React.js | CSS | Node.js | Express.js | PostgreSQL",
+            "demo": "https://react-node-fitness.herokuapp.com/",
+            "code": "https://github.com/kdolic/react-node-fitness"
+        },
+    "Project2": {
+            "title": "Human Rights First: Blue Witness",
+            "desc": "A React web application for journalists to view use-of-force reports by police across the United States of America.",
+            "stack": "React.js | Redux | React Map GL | Ant Design | Axios | Okta Auth",
+            "demo": "https://a.humanrightsfirst.dev/",
+            "code": "https://github.com/kdolic/human-rights-first-police-fe-b"
+        },
+    "Project3": {
             "title": "LinkedIn Clone",
-            "desc": "A LinkedIn clone that allows user to register/login",
+            "desc": "A React web application LinkedIn clone that allows users to register/login, create and view posts on main feed.",
             "stack": "JavaScript/JSX | React | Redux | CSS | Material-UI | Firebase (Authorization & Deployment)",
             "demo": "https://linkedin-clone-ad6ac.web.app/",
             "code": "https://github.com/kdolic/linkedin-clone"
         },
-    "Project2": {
+    "Project4": {
             "title": "Netflix Clone",
             "desc": "A Netflix clone built using React, Firebase. It fetches the data from TMDB (The Movie Database) API. It also displays the movie trailers which is fetched from YouTube.",
             "stack": "React",
             "demo": "https://netflix-clone-c7ddd.web.app/",
             "code": "https://github.com/kdolic/netflix-clone"
-        },
-    "Project3": {
-            "title": "Project # 3",
-            "desc": "Description",
-            "stack": "Languages Used",
-            "demo": "https://linkedin-clone-ad6ac.web.app/",
-            "code": "https://github.com/kdolic/linkedin-clone"
-        },
-    "Project4": {
-            "title": "Project # 4",
-            "desc": "Description",
-            "stack": "Languages Used",
-            "demo": "https://linkedin-clone-ad6ac.web.app/",
-            "code": "https://github.com/kdolic/linkedin-clone"
         },
     "Contact": {
         "paragraph": "Feel free to contact me for career prospects, business services, and any other professional inquires.",
