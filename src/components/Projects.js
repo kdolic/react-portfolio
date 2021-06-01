@@ -4,7 +4,6 @@ import devfit from '../images/devfit.png'
 import hrf from '../images/hrf.PNG'
 import netflix from './../images/netflix.PNG'
 import linkedin from './../images/linkedin-clone.PNG'
-import code2 from '../images/code2.jpg'
 
 const Projects = (props) => {
     return (
