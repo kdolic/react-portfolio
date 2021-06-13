@@ -1,9 +1,11 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade'
 import resume from './../images/KDResume.pdf'
 
 const About = (props) => {
     return (
       <section id="about" className='flex justify-center'>
+        <Fade top duration={1500}>
       <div className="flex-col-reverse text-center max-w-7xl my-auto min-h-screen flex items-center justify-center md:flex-row md:py-2 md:px-4 ">
         <div className='w-2/4 md:w-4/5 md:h-full md:pl-32 xl:px-4'>
           <div class="about-img mt-10">
@@ -17,6 +19,7 @@ const About = (props) => {
           <a href={resume} download className='border-2 border-red-700 rounded-xl text-xl uppercase tracking-wider text-black hover:bg-red-700 hover:text-white transition ease-in p-3 md:text-2xl md:py-3 md:px-8 xl:text-3xl'>Download Resume</a>
         </div>
       </div>
+      </Fade>
       </section>
     );
 }
