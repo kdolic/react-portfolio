@@ -28,11 +28,11 @@
             "code": "https://github.com/kdolic/linkedin-clone"
         },
     "Project4": {
-            "title": "Netflix Clone",
-            "desc": "A Netflix clone built using React, Firebase. It fetches the data from TMDB (The Movie Database) API. It also displays the movie trailers which is fetched from YouTube.",
-            "stack": "React",
-            "demo": "https://netflix-clone-c7ddd.web.app/",
-            "code": "https://github.com/kdolic/netflix-clone"
+            "title": "Gilded Rose Refactoring Kata",
+            "desc": "A code kata that involves:  writing unit tests for suitable test cases, refactoring of legacy code into higher quality code, implementing a new feature into the existing code.",
+            "stack": "JavaScript | Jest",
+            "demo": "https://github.com/kdolic/Gilded-Rose-JS-JEST",
+            "code": "https://github.com/kdolic/Gilded-Rose-JS-JEST"
         },
     "Contact": {
         "paragraph": "Feel free to contact me for career prospects, business services, and any other professional inquires.",
