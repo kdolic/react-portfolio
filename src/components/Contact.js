@@ -1,5 +1,5 @@
-import React from 'react'
-import Rotate from 'react-reveal/Rotate';
+import React from 'react';
+import Fade from 'react-reveal/Fade';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import PhoneIcon from '@material-ui/icons/Phone';
 import MailIcon from '@material-ui/icons/Mail';
@@ -7,7 +7,7 @@ import MailIcon from '@material-ui/icons/Mail';
 const Contact = (props) => {
     return (
       <section id="contact">
-        <Rotate bottom right cascade duration={1000}>
+        <Fade top duration={1500}>
       <div className="max-w-7xl my-0 mx-auto min-h-screen w-full flex flex-col items-center justify-center">
         <div>
           <h1 className="section-title mt-20 text-5xl md:text-7xl xl:text-8xl">Contact <span>Me</span></h1>
@@ -52,7 +52,7 @@ const Contact = (props) => {
         </div>
         </div>
       </div>
-      </Rotate>
+      </Fade>
       </section>
   )
 }

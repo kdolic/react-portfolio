@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import Rotate from 'react-reveal/Rotate';
+import Fade from 'react-reveal/Fade'
 import devfit from '../images/devfit.png'
 import hrf from '../images/hrf.PNG'
 import gilded from './../images/refactor.png'
@@ -10,7 +10,7 @@ const Projects = (props) => {
     return (
        // <!-- Projects Section -->
           <section id="projects">
-            <Rotate bottom left cascade duration={1000}>
+            <Fade top duration={1500}>
             <div class="projects container">
               <div class="projects-header">
                 <h1 class="section-title text-5xl md:text-7xl xl:text-8xl">My <span>Projects</span></h1>
@@ -67,7 +67,7 @@ const Projects = (props) => {
                 </div>
               </div>
             </div>
-            </Rotate>
+            </Fade>
           </section>
     )
 }
