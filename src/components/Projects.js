@@ -13,7 +13,7 @@ const Projects = (props) => {
             <Fade top duration={1500}>
             <div class="projects container">
               <div class="projects-header">
-                <h1 class="section-title text-5xl md:text-7xl xl:text-8xl">My <span>Projects</span></h1>
+                <h1 class="section-title mt-24 text-5xl md:text-7xl xl:text-8xl">My <span>Projects</span></h1>
               </div>
               <div class="all-projects">
                 <div class="project-item">
