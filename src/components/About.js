@@ -1,6 +1,6 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade'
-import resume from './../images/KDResume.pdf'
+import resume from './../images/KDResume1.pdf'
 
 const About = (props) => {
     return (
