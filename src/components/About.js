@@ -21,7 +21,7 @@ const About = (props) => {
         </div>
       </div>
       <div className='mt-24 mb-20 md:mt-16'>
-          <a href='https://www.credly.com/badges/41845a58-0090-4fa8-9ff4-fa5200d75624' target='_blank'><img className='w-56' src={badge} alt="lambdaBadge" /></a> 
+          <a href='https://www.credly.com/badges/41845a58-0090-4fa8-9ff4-fa5200d75624' target='_blank' rel='noreferrer'><img className='w-56' src={badge} alt="lambdaBadge" /></a> 
         </div>
       </Fade>
       </section>
