@@ -21,11 +21,11 @@
             "code": "https://github.com/kdolic/human-rights-first-police-fe-b"
         },
     "Project3": {
-            "title": "LinkedIn Clone",
-            "desc": "A React web application LinkedIn clone that allows users to register/login, create and view posts on main feed.",
-            "stack": "JavaScript/JSX | React | Redux | CSS | Material-UI | Firebase (Authorization & Deployment)",
-            "demo": "https://linkedin-clone-ad6ac.web.app/",
-            "code": "https://github.com/kdolic/linkedin-clone"
+            "title": "Airbnb Clone",
+            "desc": "A NextJS web application Airbnb clone that allows users to book a place to stay and view specific stay details.",
+            "stack": "JavaScript | React | NextJS | TailwindCSS | Mapbox | Vercel",
+            "demo": "https://air-nextjs.vercel.app/",
+            "code": "https://github.com/kdolic/air-nextjs"
         },
     "Project4": {
             "title": "Gilded Rose Refactoring Kata",
