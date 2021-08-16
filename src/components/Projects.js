@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade'
 import devfit from '../images/devfit.png'
 import hrf from '../images/hrf.PNG'
 import gilded from './../images/refactor.png'
-import linkedin from './../images/linkedin-clone.PNG'
+import air from './../images/air.png'
 
 const Projects = (props) => {
     return (
@@ -50,7 +50,7 @@ const Projects = (props) => {
                     <a href={props.data ? props.data3.code : 'loading...'}  target="_blank" rel="noreferrer" className='border-2 border-red-700 w-3/5 rounded-xl text-xl text-center uppercase tracking-wider text-white hover:bg-red-700 hover:text-white transition ease-in p-3 mt-8 md:text-2xl md:py-2 md:px-8 md:w-full xl:text-3xl'>Code</a>
                   </div>
                   <div class="project-img">
-                    <img src={linkedin} alt="img"></img>
+                    <img src={air} alt="img"></img>
                   </div>
                 </div>
                 <div class="project-item">
